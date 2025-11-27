@@ -16,13 +16,16 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12 items-start">
           
           <div className="flex flex-col items-start">
-             {/* Menggunakan tag IMG untuk GIF */}
-             <img 
-                src="https://res.cloudinary.com/dvvr41ybq/video/upload/fl_awebp/v1764202908/3dlogo_ckiyrd.webp" 
-                alt="3D Logo Evlogins"
-                className="w-72 h-auto max-w-full object-contain" 
-              />
-          </div>
+             <video 
+  className="w-72 h-auto max-w-full object-contain" 
+  autoPlay 
+  loop 
+  muted 
+  playsInline
+>
+  {/* Masukkan link asli .webm dari Cloudinary di sini tanpa diubah */}
+  <source src="https://res.cloudinary.com/dvvr41ybq/video/upload/v1764202908/3dlogo_ckiyrd.webm" type="video/webm" />
+</video>
           
           {/* ... sisa kode footer lainnya ... */}
 
