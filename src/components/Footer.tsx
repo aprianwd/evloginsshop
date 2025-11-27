@@ -10,18 +10,21 @@ const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="bg-black border-t border-white/10 text-white pt-16 pb-8 font-sans">
+   <footer className="bg-black border-t border-white/10 text-white pt-16 pb-8 font-sans">
       <div className="container mx-auto px-4">
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12 items-start">
           
           <div className="flex flex-col items-start">
+             {/* Menggunakan tag IMG untuk GIF */}
              <img 
-                src="/https://res.cloudinary.com/dvvr41ybq/image/upload/v1764206195/logo3dev_dp5wnh.gif" 
-                alt="3D Logo Animation"
+                src="/logo3dev.gif" 
+                alt="3D Logo Evlogins"
                 className="w-72 h-auto max-w-full object-contain" 
               />
           </div>
+          
+          {/* ... sisa kode footer lainnya ... */}
 
           <div className="flex flex-col items-start pt-2">
             <h4 className="font-bold mb-6 text-sm tracking-widest uppercase text-purple-500 font-serif">Support</h4>
