@@ -16,16 +16,11 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12 items-start">
           
           <div className="flex flex-col items-start">
-             <video 
+             <img 
+                src="/https://res.cloudinary.com/dvvr41ybq/image/upload/v1764206195/logo3dev_dp5wnh.gif" 
+                alt="3D Logo Animation"
                 className="w-72 h-auto max-w-full object-contain" 
-                autoPlay 
-                loop 
-                muted 
-                playsInline
-              >
-                <source src="/logo-3d.webm" type="video/webm" />
-                Your browser does not support the video tag.
-              </video>
+              />
           </div>
 
           <div className="flex flex-col items-start pt-2">
