@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-col items-start">
              {/* Menggunakan tag IMG untuk GIF */}
              <img 
-                src="https://res.cloudinary.com/dvvr41ybq/video/upload/fl_awebp/v1764202908/3dlogo_ckiyrd.webm" 
+                src="https://res.cloudinary.com/dvvr41ybq/video/upload/fl_awebp/v1764202908/3dlogo_ckiyrd.webp" 
                 alt="3D Logo Evlogins"
                 className="w-72 h-auto max-w-full object-contain" 
               />
